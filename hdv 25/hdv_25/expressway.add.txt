@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- E2: point detector at 50 m on lane E2_0 -->
+  
+    <!-- Inductive Loop Detector for vehicle presence and counting -->
+    <detector id="ILD_1_E2_0" type="inductiveLoop" lane="E2_0" pos="50" freq="1" file="ILD_1_E2_0_output.xml"/>
+    <detector id="ILD_1_E2_1" type="inductiveLoop" lane="E2_1" pos="50" freq="1" file="ILD_1_E2_1_output.xml"/>
+    <detector id="ILD_1_E2_2" type="inductiveLoop" lane="E2_2" pos="50" freq="1" file="ILD_1_E2_2_output.xml"/>
+    <detector id="ILD_1_E2_3" type="inductiveLoop" lane="E2_3" pos="50" freq="1" file="ILD_1_E2_3_output.xml"/>
+    <detector id="ILD_1_E2_4" type="inductiveLoop" lane="E2_4" pos="50" freq="1" file="ILD_1_E2_4_output.xml"/>
+    <detector id="ILD_1_E2_5" type="inductiveLoop" lane="E2_5" pos="50" freq="1" file="ILD_1_E2_5_output.xml"/>
+
+    <detector id="speed_1_E2_0" type="speed" lane="E2_0" pos="50" freq="1" file="speed_1_E2_0_output.xml"/>
+    <detector id="speed_1_E2_1" type="speed" lane="E2_1" pos="50" freq="1" file="speed_1_E2_1_output.xml"/>
+    <detector id="speed_1_E2_2" type="speed" lane="E2_2" pos="50" freq="1" file="speed_1_E2_2_output.xml"/>
+    <detector id="speed_1_E2_3" type="speed" lane="E2_3" pos="50" freq="1" file="speed_1_E2_3_output.xml"/>
+    <detector id="speed_1_E2_4" type="speed" lane="E2_4" pos="50" freq="1" file="speed_1_E2_4_output.xml"/>
+    <detector id="speed_1_E2_5" type="speed" lane="E2_5" pos="50" freq="1" file="speed_1_E2_5_output.xml"/>
+
+    <detector id="laneChange_1_E2_0" type="laneChange" lane="E2_0" pos="50" freq="1" file="laneChange_1_E2_0_output.xml"/>
+    <detector id="laneChange_1_E2_1" type="laneChange" lane="E2_1" pos="50" freq="1" file="laneChange_1_E2_1_output.xml"/>
+    <detector id="laneChange_1_E2_2" type="laneChange" lane="E2_2" pos="50" freq="1" file="laneChange_1_E2_2_output.xml"/>
+    <detector id="laneChange_1_E2_3" type="laneChange" lane="E2_3" pos="50" freq="1" file="laneChange_1_E2_3_output.xml"/>
+    <detector id="laneChange_1_E2_4" type="laneChange" lane="E2_4" pos="50" freq="1" file="laneChange_1_E2_4_output.xml"/>
+    <detector id="laneChange_1_E2_5" type="laneChange" lane="E2_5" pos="50" freq="1" file="laneChange_1_E2_5_output.xml"/>
+
+    <detector id="vehicleCounter_1_E2_0" type="vehicleCounter" lane="E2_0" pos="50" freq="1" file="vehicleCounter_1_E2_0_output.xml"/>
+    <detector id="vehicleCounter_1_E2_1" type="vehicleCounter" lane="E2_1" pos="50" freq="1" file="vehicleCounter_1_E2_1_output.xml"/>
+    <detector id="vehicleCounter_1_E2_2" type="vehicleCounter" lane="E2_2" pos="50" freq="1" file="vehicleCounter_1_E2_2_output.xml"/>
+    <detector id="vehicleCounter_1_E2_3" type="vehicleCounter" lane="E2_3" pos="50" freq="1" file="vehicleCounter_1_E2_3_output.xml"/>
+    <detector id="vehicleCounter_1_E2_4" type="vehicleCounter" lane="E2_4" pos="50" freq="1" file="vehicleCounter_1_E2_4_output.xml"/>
+    <detector id="vehicleCounter_1_E2_5" type="vehicleCounter" lane="E2_5" pos="50" freq="1" file="vehicleCounter_1_E2_5_output.xml"/>
+
+    <detector id="flow_1_E2_0" type="flow" lane="E2_0" pos="50" freq="1" file="flow_1_E2_0_output.xml"/>
+    <detector id="flow_1_E2_1" type="flow" lane="E2_1" pos="50" freq="1" file="flow_1_E2_1_output.xml"/>
+    <detector id="flow_1_E2_2" type="flow" lane="E2_2" pos="50" freq="1" file="flow_1_E2_2_output.xml"/>
+    <detector id="flow_1_E2_3" type="flow" lane="E2_3" pos="50" freq="1" file="flow_1_E2_3_output.xml"/>
+    <detector id="flow_1_E2_4" type="flow" lane="E2_4" pos="50" freq="1" file="flow_1_E2_4_output.xml"/>
+    <detector id="flow_1_E2_5" type="flow" lane="E2_5" pos="50" freq="1" file="flow_1_E2_5_output.xml"/>
+
+    <!-- E2: point detector at 50 m on lane E2_0 -->
+</additional>
