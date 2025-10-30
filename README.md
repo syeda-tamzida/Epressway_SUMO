@@ -1,9 +1,6 @@
 # Epressway_SUMO
 
 # Signalized Intersection Design
-
-(Capture.PNG)
-
 ![Simulation](image/Capture.PNG)
 ## Getting started
 
