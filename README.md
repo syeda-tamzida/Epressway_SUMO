@@ -4,7 +4,7 @@
 
 (Capture.PNG)
 
-![Simulation](Capture.PNG)
+![Simulation](image/Capture.PNG)
 ## Getting started
 
 To run the simulation you need to download Eclipse SUMO (Simulation of Urban Mobility) from [eclipse](https://www.eclipse.org/sumo/) or [github](https://github.com/eclipse/sumo). The provided simulation was developed and tested with SUMO 1.19.0.
