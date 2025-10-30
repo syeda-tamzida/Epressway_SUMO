@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    
+		   
+	<vType id="cav_nextgen"
+       carFollowModel="Krauss"
+       maxSpeed="36.11"          
+       accel="1.7"
+       decel="1.1"
+       emergencyDecel="3.0"
+       tau="1.5"                 
+       minGap="0.6"
+       sigma="0.0"
+       speedDev="0.0"
+       speedFactor="1.0"        
+       length="5.0"
+       lcStrategic="1.0"
+       lcCooperative="1.0"
+       lcKeepRight="0.3"
+       color="yellow"/>
+	   
+    <!-- Define route including all edges -->
+    <route id="main_route" edges="E2 E0 E0.22 E0.1681 E4"/>
+
+    
+		  
+    <flow id="cav_nextgen" type="cav_nextgen" route="main_route" begin="0" end="3600.0" vehsPerHour="10000" 
+	      departSpeed="13.00" departLane="random" />
+
+</routes>
