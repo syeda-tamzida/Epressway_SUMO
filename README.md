@@ -2,7 +2,7 @@
 
 # Signalized Intersection Design
 
-![Simulation](Capture.PNG)
+(Capture.PNG)
 
 ![Simulation](intersection.wmv)
 ## Getting started
