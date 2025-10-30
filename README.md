@@ -32,22 +32,23 @@ Timestep: e.g., --step-length 0.1 (update to your exact value).
 Randomness: fixed --seed; recommend R=10 replications per scenario.
 
 ## Outputs enabled (per scenario):
+
 ### tripinfo.xml: 
 per-vehicle travel time, delay, route length, speed.
 
-# summary.xml: 
+### summary.xml: 
 network means & halts per step.
 
-# fcd.xml: 
+### fcd.xml: 
 per-step trajectories (time, x, y, speed, accel).
 
-# emission.xml: 
+### emission.xml: 
 fuel, CO₂, NOx, PMx, HC (HBEFA-based).
 
-# Induction loops: 
+### Induction loops: 
 spot flow/speed/occupancy.
 
-# Lane-area detectors: 
+### Lane-area detectors: 
 density/occupancy proxies by segment.
 
 ## Licence
