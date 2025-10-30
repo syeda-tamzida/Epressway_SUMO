@@ -32,7 +32,7 @@ Timestep: e.g., --step-length 0.1 (update to your exact value).
 Randomness: fixed --seed; recommend R=10 replications per scenario.
 
 ## Outputs enabled (per scenario):
-# tripinfo.xml: 
+### tripinfo.xml: 
 per-vehicle travel time, delay, route length, speed.
 
 # summary.xml: 
